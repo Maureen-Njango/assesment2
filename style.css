@@ -1,0 +1,104 @@
+#top{
+    display: flex;
+    gap: 25%;
+}
+#top1{
+    display: flex;
+    gap: 8%;
+
+}
+#top2{
+    display: flex;
+    gap: 8%;
+
+}
+#section1{
+    display: flex;
+    gap: 10%;
+}
+.img1{
+    width: 150px;
+    
+}
+.img2{
+    width: 40px;
+}
+#section2{
+    display: flex;
+    gap: 5%;
+}
+#last{
+    background-color: aquamarine;
+}
+#but1{
+    width: 40%;
+    height: 10%;
+    background-color: cornflowerblue;
+    border-radius: 15%;
+}
+#but2{
+    width: 300%;
+    height: 60%;
+    background-color: mediumaquamarine;
+    border-radius: 20px;
+    
+}
+.gl{
+    border-radius: 90%;
+}
+@media screen and (max-width: 750px){
+    #top{
+        flex-wrap: wrap;
+        
+    
+    
+        
+    }
+    #top1{
+        flex-wrap: wrap;
+       
+    
+    }
+    #top2{
+        flex-wrap: wrap;
+        
+    
+    }
+    #section1{
+        flex-wrap: wrap;
+        gap: 10%;
+    }
+    .img1{
+        width: 20px;
+        
+    }
+    .img2{
+        width: 40px;
+    }
+    #section2{
+        display: flex;
+        gap: 5%;
+    }
+    #last{
+        background-color: aquamarine;
+    }
+    #but1{
+        width: 40%;
+        height: 10%;
+        background-color: cornflowerblue;
+        border-radius: 15%;
+    }
+    #but2{
+        width: 300%;
+        height: 60%;
+        background-color: mediumaquamarine;
+        border-radius: 20px;
+        
+    }
+    .gl{
+        border-radius: 90%;
+        width: 70%;
+    }
+
+    
+}
