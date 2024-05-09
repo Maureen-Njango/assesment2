@@ -1,86 +1,118 @@
-#top{
+#nuvbar{
     display: flex;
-    gap: 25%;
+    gap: 33%;
 }
-#top1{
+#categorylist{
     display: flex;
     gap: 8%;
 
 }
-#top2{
+#nuv.login{
     display: flex;
     gap: 8%;
 
 }
-#section1{
+#landingpage{
     display: flex;
-    gap: 10%;
+    gap: 3%;
+    justify-content: center;
 }
 .img1{
-    width: 150px;
+    width: 90px;
     
 }
 .img2{
     width: 40px;
 }
-#section2{
+#footericons{
     display: flex;
-    gap: 5%;
+    gap: 8%;
 }
-#last{
+#footer{
     background-color: aquamarine;
 }
-#but1{
-    width: 40%;
-    height: 10%;
+#loginbutton{
+    width: 100px;
+    height: 39px;
     background-color: cornflowerblue;
-    border-radius: 15%;
+    border-radius: 20px;
 }
 #but2{
     width: 300%;
     height: 60%;
     background-color: mediumaquamarine;
-    border-radius: 20px;
+    border-radius: 400px;
     
 }
-.gl{
-    border-radius: 90%;
+.place{
+    position: relative;
+    display: inline-block;
+    width: 170px; 
+    
+    
+
 }
-@media screen and (max-width: 750px){
-    #top{
-        flex-wrap: wrap;
+.place input{
+    border: 1px solid;
+    border-radius: 30px;
+    padding-right: 40px;
+    padding: 15%;
+    width: 600px;
+}
+.place button{
+    position: absolute;
+    margin-left: 450px;
+    padding: 8%;
+    top: 25%;
+    width: 70%;
+    border: none;
+    background-color: rgb(113,182,176);
+    border-radius: 40%;
+
+}
+.girlreading{
+    border-radius: 50%;
+    width: 376px;
+}
+#nuvbar a{
+    text-decoration: none;;
+    list-style-type: none;
+
+   }
+@media screen and (max-width: 768px){
+    #nuvbar{
+        gap: 2%;
+        
         
     
     
         
     }
-    #top1{
-        flex-wrap: wrap;
+    #categorylist{
+        gap: 1px;
+        
        
     
     }
-    #top2{
-        flex-wrap: wrap;
-        
     
-    }
-    #section1{
+    #landingpage{
         flex-wrap: wrap;
         gap: 10%;
     }
     .img1{
-        width: 20px;
+        width: 50px;
         
     }
     .img2{
-        width: 40px;
+        width: 30px;
     }
-    #section2{
-        display: flex;
-        gap: 5%;
+    #footericons{
+        
+        gap: 3%;
     }
-    #last{
+    #footer{
         background-color: aquamarine;
+        gap: 2%;
     }
     #but1{
         width: 40%;
@@ -88,17 +120,58 @@
         background-color: cornflowerblue;
         border-radius: 15%;
     }
-    #but2{
+    /* #but2{
         width: 300%;
         height: 60%;
         background-color: mediumaquamarine;
         border-radius: 20px;
         
-    }
-    .gl{
+    } */
+    .girlreading{
         border-radius: 90%;
-        width: 70%;
+        width: 50%;
+        margin-left: 4%;
     }
-
+    .place{
+        position: relative;
+        display: inline-block;
+        width: 170px; 
+        
+        
     
+    }
+    .place input{
+        border: 1px solid;
+        border-radius: 20px;
+        padding-right: 30px;
+        padding: 10%;
+        width: 300px;
+    }
+    .place button{
+        position: absolute;
+        margin-left: 250px;
+        padding: 8%;
+        top: 25%;
+        width: 30%;
+        border: none;
+        background-color: rgb(113,182,176);
+        border-radius: 18%;
+    
+    }
+    .girlreading{
+        border-radius: 90%;
+    }
+    h1{
+       font-size: medium;
+    }
+    #loginbutton{
+        width: 50px;
+        height: 43px;
+        background-color: cornflowerblue;
+        border-radius: 20px;
+    }
+    h3{
+        font-size: medium;
+    }
+   
 }
